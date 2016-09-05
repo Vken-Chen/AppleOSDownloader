@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8517E3AC1D79588F00A767E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8517E3AB1D79588F00A767E9 /* main.m */; };
+		8529F8641D7BC34A00C60664 /* VKAOSHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8529F8591D7BC34A00C60664 /* VKAOSHtmlParser.m */; };
+		8529F8651D7BC34A00C60664 /* VKAOSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8529F85B1D7BC34A00C60664 /* VKAOSItem.m */; };
+		8529F8661D7BC34A00C60664 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8529F85F1D7BC34A00C60664 /* TFHpple.m */; };
+		8529F8671D7BC34A00C60664 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8529F8611D7BC34A00C60664 /* TFHppleElement.m */; };
+		8529F8681D7BC34A00C60664 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8529F8631D7BC34A00C60664 /* XPathQuery.m */; };
+		85FCCCD31D7BCB490060FEC5 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FCCCD21D7BCB490060FEC5 /* libxml2.2.tbd */; };
+		85FCCCD61D7BD5660060FEC5 /* VKAOSDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FCCCD51D7BD5660060FEC5 /* VKAOSDownloader.m */; };
+		85FCCCD91D7BD5F20060FEC5 /* VKAOSItemOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FCCCD81D7BD5F20060FEC5 /* VKAOSItemOperator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8517E3A61D79588F00A767E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8517E3A81D79588F00A767E9 /* AppleOSDownloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleOSDownloader; sourceTree = BUILT_PRODUCTS_DIR; };
+		8517E3AB1D79588F00A767E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8529F8571D7BC34A00C60664 /* VKAOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAOS.h; sourceTree = "<group>"; };
+		8529F8581D7BC34A00C60664 /* VKAOSHtmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAOSHtmlParser.h; sourceTree = "<group>"; };
+		8529F8591D7BC34A00C60664 /* VKAOSHtmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAOSHtmlParser.m; sourceTree = "<group>"; };
+		8529F85A1D7BC34A00C60664 /* VKAOSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAOSItem.h; sourceTree = "<group>"; };
+		8529F85B1D7BC34A00C60664 /* VKAOSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAOSItem.m; sourceTree = "<group>"; };
+		8529F85E1D7BC34A00C60664 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		8529F85F1D7BC34A00C60664 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		8529F8601D7BC34A00C60664 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		8529F8611D7BC34A00C60664 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		8529F8621D7BC34A00C60664 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		8529F8631D7BC34A00C60664 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		85FCCCD21D7BCB490060FEC5 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		85FCCCD41D7BD5660060FEC5 /* VKAOSDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAOSDownloader.h; sourceTree = "<group>"; };
+		85FCCCD51D7BD5660060FEC5 /* VKAOSDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAOSDownloader.m; sourceTree = "<group>"; };
+		85FCCCD71D7BD5F20060FEC5 /* VKAOSItemOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAOSItemOperator.h; sourceTree = "<group>"; };
+		85FCCCD81D7BD5F20060FEC5 /* VKAOSItemOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAOSItemOperator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8517E3A51D79588F00A767E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FCCCD31D7BCB490060FEC5 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8517E39F1D79588F00A767E9 = {
+			isa = PBXGroup;
+			children = (
+				85FCCCD21D7BCB490060FEC5 /* libxml2.2.tbd */,
+				8517E3AA1D79588F00A767E9 /* AppleOSDownloader */,
+				8517E3A91D79588F00A767E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8517E3A91D79588F00A767E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8517E3A81D79588F00A767E9 /* AppleOSDownloader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8517E3AA1D79588F00A767E9 /* AppleOSDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				8529F8561D7BC34A00C60664 /* Source */,
+				8529F85C1D7BC34A00C60664 /* Vendor */,
+				8517E3AB1D79588F00A767E9 /* main.m */,
+			);
+			path = AppleOSDownloader;
+			sourceTree = "<group>";
+		};
+		8529F8561D7BC34A00C60664 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8529F8571D7BC34A00C60664 /* VKAOS.h */,
+				8529F8581D7BC34A00C60664 /* VKAOSHtmlParser.h */,
+				8529F8591D7BC34A00C60664 /* VKAOSHtmlParser.m */,
+				8529F85A1D7BC34A00C60664 /* VKAOSItem.h */,
+				8529F85B1D7BC34A00C60664 /* VKAOSItem.m */,
+				85FCCCD41D7BD5660060FEC5 /* VKAOSDownloader.h */,
+				85FCCCD51D7BD5660060FEC5 /* VKAOSDownloader.m */,
+				85FCCCD71D7BD5F20060FEC5 /* VKAOSItemOperator.h */,
+				85FCCCD81D7BD5F20060FEC5 /* VKAOSItemOperator.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8529F85C1D7BC34A00C60664 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				8529F85D1D7BC34A00C60664 /* Hpple */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		8529F85D1D7BC34A00C60664 /* Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				8529F85E1D7BC34A00C60664 /* TFHpple.h */,
+				8529F85F1D7BC34A00C60664 /* TFHpple.m */,
+				8529F8601D7BC34A00C60664 /* TFHppleElement.h */,
+				8529F8611D7BC34A00C60664 /* TFHppleElement.m */,
+				8529F8621D7BC34A00C60664 /* XPathQuery.h */,
+				8529F8631D7BC34A00C60664 /* XPathQuery.m */,
+			);
+			path = Hpple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8517E3A71D79588F00A767E9 /* AppleOSDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8517E3AF1D79588F00A767E9 /* Build configuration list for PBXNativeTarget "AppleOSDownloader" */;
+			buildPhases = (
+				8517E3A41D79588F00A767E9 /* Sources */,
+				8517E3A51D79588F00A767E9 /* Frameworks */,
+				8517E3A61D79588F00A767E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleOSDownloader;
+			productName = AppleOSDownloader;
+			productReference = 8517E3A81D79588F00A767E9 /* AppleOSDownloader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8517E3A01D79588F00A767E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Vkenchen;
+				TargetAttributes = {
+					8517E3A71D79588F00A767E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8517E3A31D79588F00A767E9 /* Build configuration list for PBXProject "AppleOSDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8517E39F1D79588F00A767E9;
+			productRefGroup = 8517E3A91D79588F00A767E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8517E3A71D79588F00A767E9 /* AppleOSDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8517E3A41D79588F00A767E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8529F8641D7BC34A00C60664 /* VKAOSHtmlParser.m in Sources */,
+				8517E3AC1D79588F00A767E9 /* main.m in Sources */,
+				8529F8651D7BC34A00C60664 /* VKAOSItem.m in Sources */,
+				8529F8661D7BC34A00C60664 /* TFHpple.m in Sources */,
+				85FCCCD61D7BD5660060FEC5 /* VKAOSDownloader.m in Sources */,
+				85FCCCD91D7BD5F20060FEC5 /* VKAOSItemOperator.m in Sources */,
+				8529F8681D7BC34A00C60664 /* XPathQuery.m in Sources */,
+				8529F8671D7BC34A00C60664 /* TFHppleElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8517E3AD1D79588F00A767E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8517E3AE1D79588F00A767E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8517E3B01D79588F00A767E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8517E3B11D79588F00A767E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8517E3A31D79588F00A767E9 /* Build configuration list for PBXProject "AppleOSDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8517E3AD1D79588F00A767E9 /* Debug */,
+				8517E3AE1D79588F00A767E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8517E3AF1D79588F00A767E9 /* Build configuration list for PBXNativeTarget "AppleOSDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8517E3B01D79588F00A767E9 /* Debug */,
+				8517E3B11D79588F00A767E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8517E3A01D79588F00A767E9 /* Project object */;
+}
