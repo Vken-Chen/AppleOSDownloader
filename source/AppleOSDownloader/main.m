@@ -18,7 +18,7 @@ void startDownload(const char* path)
         savePath = [savePath stringByAppendingString:@"/"];
     }
     
-    [downloader download:@"http://opensource.apple.com/source/" saveTo:savePath];
+    [downloader download:@"http://opensource.apple.com/tarballs/" saveTo:savePath];
 }
 
 int main(int argc, const char * argv[]) {
