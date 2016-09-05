@@ -146,7 +146,7 @@
                 }else{
                     
                     item.name = a.text;
-                    if([item.name containsString:@"\\"])
+                    if([item.name containsString:@"/"])
                     {
                         item.isFile = NO;
                     }
